@@ -1,0 +1,30 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
